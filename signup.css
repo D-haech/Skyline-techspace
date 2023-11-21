@@ -32,11 +32,15 @@ input[type=text]:focus{
     
 }
 /* the home icon */
-.home{
+.container > a:nth-child(1){
     position: absolute;
     left: 22%;
     top: 5%;
+   
+    
 }
+
+
 .form-class{
     position: relative;
 }
@@ -207,4 +211,21 @@ input[type=tel]:focus{
     input[type = submit]{
         width: 80%;
     }
+
+    .container > a:nth-child(1){
+        position: absolute;
+        top: 3px;
+        left: 44%;
+    }
+    .home{
+        display: none;
+    }
+ }
+
+
+ @media (min-width:516px) and (max-width:748px) {
+   .container > a:nth-child(1){
+    position: absolute;
+    top: 3px;
+   }
  }
